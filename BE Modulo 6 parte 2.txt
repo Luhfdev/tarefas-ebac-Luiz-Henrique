@@ -1,0 +1,49 @@
+1 - Acordar
+2 - Abrir o olho
+3 - Olhar o celular
+4 - Deu o horário de ir trabalhar? Não
+	1 - Volte a dormir.
+	2 - Retorne a primeira linha.
+5 - Sim
+	1 - Está atrasado? Não
+		1 - Sente na cama
+		2 - Pegue a bíblia
+		3 - Leia um capítulo
+	2 - Sim
+6 - Levante da cama
+7 - Vá para o banheiro
+8 - Abra a porta
+9 - Fique de baixo do chuveiro
+10 - gire o registro
+11 - pegue o shampoo
+12 - Coloque um pouco na mão
+13 - Esfregue na cabeça
+14 - Feche o registro do chuveiro
+15 - Pegue a toalha
+16 - Passe a toalha pelo corpo
+	1 - Alguma parte está molhada? Sim
+		1 - Passe a toalha no local que está molhado
+	2 - Não
+17 - Pegue a pasta e a escova de dentes
+18 - Abra a pasta e coloque na escova
+19 - Molhe a escova com pasta
+20 - Escove os dentes
+21 - Guarde a escova e a pasta
+22 - Pegue o pente de cabelo
+23 - Penteie o Cabelo
+24 - Vá até o guarda-roupa
+25 - Abra o guarda-roupa
+26 - Pegue a roupa do trabalho
+27 - Vista a roupa do trabalho
+28 - Feche o guarda-roupa
+29 - Vá até a porta de casa
+30 - Pegue a chave
+31 - Coloque a chave na fechadura e gire
+	1 - A porta abriu? Não
+		1 - Gire a chave novamente
+	2 - Sim
+32 - Saia e feche a porta
+	1 - A porta Fechou? Não
+		1 - Gire a chave novamente
+	2 - Sim
+
