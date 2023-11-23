@@ -1,5 +1,7 @@
-
+import java.util.Scanner;
 public class MetodoMedia {
+
+    Scanner s = new Scanner(System.in);
 
     private double n1;
     private double n2;
@@ -12,32 +14,27 @@ public class MetodoMedia {
         return n1;
     }
 
-    public void setN1(double n1) {
-        this.n1 = n1;
-    }
-
     public double getN2() {
         return n2;
-    }
-
-    public void setN2(double n2) {
-        this.n2 = n2;
     }
 
     public double getN3() {
         return n3;
     }
 
-    public void setN3(double n3) {
-        this.n3 = n3;
-    }
-
     public double getN4() {
         return n4;
     }
 
-    public void setN4(double n4) {
-        this.n4 = n4;
+    public void Nota() {
+        System.out.print("Digite a primeira nota: ");
+        n1 = s.nextDouble();
+        System.out.print("Digite a segunda nota: ");
+        n2 = s.nextDouble();
+        System.out.print("Digite a terceira nota: ");
+        n3 = s.nextDouble();
+        System.out.print("Digite a quarta nota: ");
+        n4 = s.nextDouble();
     }
 
     public void Calcmedia(double num1, double num2, double num3, double num4){
@@ -47,13 +44,13 @@ public class MetodoMedia {
     }
 
     public void Medi() {
-        if(mediaT > 7) {
+        if(mediaT >= 7) {
             System.out.println("Aprovado!!!");
         }
-        else if(mediaT == 7){
-            System.out.println("Passou raspando!");
+        else if(mediaT < 7 && mediaT >= 5){
+            System.out.println("Recuperação!");
         }
-        else if(mediaT < 7) {
+        else if(mediaT < 5) {
             System.out.println("Reprovado!");
         }
     }
