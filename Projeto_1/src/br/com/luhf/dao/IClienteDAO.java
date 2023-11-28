@@ -5,13 +5,13 @@ import br.com.luhf.domain.Cliente;
 import java.util.Collection;
 
 public interface IClienteDAO {
-    public Boolean cadastrar(Cliente cliente);
+    Boolean cadastrar(Cliente cliente);
 
-    public Cliente excluir (Long cpf);
+    Cliente excluir (Long cpf);
 
-    public void alterar (Cliente cliente);
+    void alterar (Cliente cliente);
 
-    public Cliente consultar(Long cpf);
+    Cliente consultar(Long cpf);
 
-    public Collection<Cliente> buscarTodos();
+    Collection<Cliente> buscarTodos();
 }
