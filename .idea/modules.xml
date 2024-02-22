@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BE Modulo 6 Parte 1/BE Modulo 6 Parte 1.iml" filepath="$PROJECT_DIR$/BE Modulo 6 Parte 1/BE Modulo 6 Parte 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tarefa_Colecoes/Colecoes_Parte_1/Colecoes_Parte_1.iml" filepath="$PROJECT_DIR$/Tarefa_Colecoes/Colecoes_Parte_1/Colecoes_Parte_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tarefa_Colecoes/Colocoes_Parte_2/Colocoes_Parte_2.iml" filepath="$PROJECT_DIR$/Tarefa_Colecoes/Colocoes_Parte_2/Colocoes_Parte_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projeto_1/Projeto_1.iml" filepath="$PROJECT_DIR$/Projeto_1/Projeto_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tarefa_Classes/Tarefa_Classes.iml" filepath="$PROJECT_DIR$/Tarefa_Classes/Tarefa_Classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tarefa_Controle_De_Fluxo/Tarefa_Controle_De_Fluxo.iml" filepath="$PROJECT_DIR$/Tarefa_Controle_De_Fluxo/Tarefa_Controle_De_Fluxo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tarefa_Generics/Tarefa_Generics.iml" filepath="$PROJECT_DIR$/Tarefa_Generics/Tarefa_Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tarefa_Padroes_De_Projeto_1/Tarefa_Padroes_De_Projeto_1.iml" filepath="$PROJECT_DIR$/Tarefa_Padroes_De_Projeto_1/Tarefa_Padroes_De_Projeto_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tarefa_Pessoa/Tarefa_Pessoa.iml" filepath="$PROJECT_DIR$/Tarefa_Pessoa/Tarefa_Pessoa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tarefa_Wrapper/Tarefa_Wrapper.iml" filepath="$PROJECT_DIR$/Tarefa_Wrapper/Tarefa_Wrapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tarefas-ebac-Luiz-Henrique.iml" filepath="$PROJECT_DIR$/.idea/tarefas-ebac-Luiz-Henrique.iml" />
+    </modules>
+  </component>
+</project>
