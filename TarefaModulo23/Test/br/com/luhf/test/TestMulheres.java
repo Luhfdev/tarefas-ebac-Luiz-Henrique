@@ -18,8 +18,4 @@ public class TestMulheres {
     public void Test() {
         mulheres.forEach(mulher -> Assert.assertTrue(mulher.getGenero().equalsIgnoreCase("mulher")));
     }
-
-    private List<Pessoa> criarListaPessoas() {
-        return null;
-    }
 }
