@@ -2,7 +2,7 @@ package br.com.luhf;
 
 import br.com.luhf.domain.Cliente;
 import br.com.luhf.exception.TipoChaveNaoEncontradaException;
-import service.ClienteServiceMock;
+import br.com.luhf.services.ClienteServiceMock;
 import br.com.luhf.services.IClienteService;
 import org.junit.Assert;
 import org.junit.Before;

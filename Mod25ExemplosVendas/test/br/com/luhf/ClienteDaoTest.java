@@ -1,12 +1,9 @@
 package br.com.luhf;
 
-import br.com.luhf.dao.ClienteDao;
 import br.com.luhf.dao.IClienteDao;
 import br.com.luhf.domain.Cliente;
 import br.com.luhf.exception.TipoChaveNaoEncontradaException;
-import br.com.luhf.services.ClienteService;
-import br.com.luhf.services.IClienteService;
-import dao.ClienteDaoMock;
+import br.com.luhf.dao.ClienteDaoMock;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

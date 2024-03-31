@@ -1,4 +1,4 @@
-package service;
+package br.com.luhf.services;
 
 import br.com.luhf.domain.Cliente;
 import br.com.luhf.exception.TipoChaveNaoEncontradaException;

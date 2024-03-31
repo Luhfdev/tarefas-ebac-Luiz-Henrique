@@ -1,4 +1,4 @@
-package dao;
+package br.com.luhf.dao;
 
 import br.com.luhf.dao.IClienteDao;
 import br.com.luhf.domain.Cliente;
