@@ -7,9 +7,6 @@
 
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
-        <!-- <class>br.com.rpires.domain.Cliente</class> -->
-
-
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" /> <!-- DB Driver -->
             <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:15432/Mod32" /> <!-- BD Mane -->

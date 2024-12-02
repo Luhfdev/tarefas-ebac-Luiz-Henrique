@@ -22,7 +22,7 @@ public class ClienteTest {
         Integer qtd = dao.cadastrar(cliente);
         Assert.assertEquals(1, (int) qtd);
 
-        dao.excluir(cliente);
+        //dao.excluir(cliente);
     }
 
     @Test

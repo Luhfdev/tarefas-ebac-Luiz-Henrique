@@ -20,6 +20,8 @@ public class Produto {
     @Column(name = "VALOR", nullable = false)
     private Double valor;
 
+    @Column(name = "QUANTIDADE", nullable = false)
+    private double quantidade;
 
     public long getId() {
         return id;
@@ -51,5 +53,9 @@ public class Produto {
 
     public void setValor(Double valor) {
         this.valor = valor;
+    }
+
+    public void setQuantidade(double quantidade) {
+        this.quantidade = quantidade;
     }
 }

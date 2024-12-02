@@ -1,11 +1,8 @@
 package br.com.luhf;
-
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
-
 import java.time.Instant;
 import java.util.List;
-
 import main.java.br.com.luhf.dao.IProdutoDao;
 import main.java.br.com.luhf.dao.IVendaDao;
 import main.java.br.com.luhf.dao.ProdutoDao;
