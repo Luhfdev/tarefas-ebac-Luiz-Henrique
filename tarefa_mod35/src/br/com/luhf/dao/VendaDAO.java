@@ -147,6 +147,7 @@ public class VendaDAO extends GenericDAO<Venda, String> implements IVendaDAO {
             rs = stm.executeQuery();
             if (rs.next()) {
                 Venda venda = VendaFactory.convert(rs);
+
                 buscarAssociacaoVendaProdutos(connection, venda);
                 return venda;
             }
@@ -167,7 +168,7 @@ public class VendaDAO extends GenericDAO<Venda, String> implements IVendaDAO {
         try {
             StringBuilder sbProd = new StringBuilder();
             sbProd.append("SELECT PQ.ID, PQ.QUANTIDADE, PQ.VALOR_TOTAL, ");
-            sbProd.append("P.ID AS ID_PRODUTO, P.CODIGO, P.NOME, P.DESCRICAO, P.VALOR ");
+            sbProd.append("P.ID AS ID_PRODUTO, P.CODIGO, P.NOME, P.DESCRICAO, P.VALOR, P.EMPRESA ");
             sbProd.append("FROM TB_PRODUTO_QUANTIDADE PQ ");
             sbProd.append("INNER JOIN TB_PRODUTO P ON P.ID = PQ.ID_PRODUTO_FK ");
             sbProd.append("WHERE PQ.ID_VENDA_FK = ?");
