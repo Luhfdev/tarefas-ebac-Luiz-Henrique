@@ -2,9 +2,9 @@ package dao;
 
 import java.util.Collection;
 
-import br.com.luhf.dao.IProdutoDAO;
-import br.com.luhf.domain.Produto;
-import br.com.luhf.exceptions.TipoChaveNaoEncontradaException;
+import main.java.br.com.luhf.dao.IProdutoDAO;
+import main.java.br.com.luhf.domain.Produto;
+import main.java.br.com.luhf.exceptions.TipoChaveNaoEncontradaException;
 
 public class ProdutoDAOMock implements IProdutoDAO {
 

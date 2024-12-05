@@ -8,13 +8,13 @@ import java.util.Collection;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;
-import br.com.luhf.dao.IProdutoDAO;
-import br.com.luhf.dao.ProdutoDAO;
-import br.com.luhf.domain.Produto;
-import br.com.luhf.exceptions.DAOException;
-import br.com.luhf.exceptions.MaisDeUmRegistroException;
-import br.com.luhf.exceptions.TableException;
-import br.com.luhf.exceptions.TipoChaveNaoEncontradaException;
+import main.java.br.com.luhf.dao.IProdutoDAO;
+import main.java.br.com.luhf.dao.ProdutoDAO;
+import main.java.br.com.luhf.domain.Produto;
+import main.java.br.com.luhf.exceptions.DAOException;
+import main.java.br.com.luhf.exceptions.MaisDeUmRegistroException;
+import main.java.br.com.luhf.exceptions.TableException;
+import main.java.br.com.luhf.exceptions.TipoChaveNaoEncontradaException;
 
 public class ProdutoDAOTest {
 

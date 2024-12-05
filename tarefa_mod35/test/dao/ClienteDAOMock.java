@@ -2,9 +2,9 @@ package dao;
 
 import java.util.Collection;
 
-import br.com.luhf.dao.IClienteDAO;
-import br.com.luhf.domain.Cliente;
-import br.com.luhf.exceptions.TipoChaveNaoEncontradaException;
+import main.java.br.com.luhf.dao.IClienteDAO;
+import main.java.br.com.luhf.domain.Cliente;
+import main.java.br.com.luhf.exceptions.TipoChaveNaoEncontradaException;
 
 public class ClienteDAOMock implements IClienteDAO {
 

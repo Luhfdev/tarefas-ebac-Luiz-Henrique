@@ -7,12 +7,12 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import br.com.luhf.dao.IProdutoDAO;
-import br.com.luhf.domain.Produto;
-import br.com.luhf.exceptions.DAOException;
-import br.com.luhf.exceptions.TipoChaveNaoEncontradaException;
-import br.com.luhf.services.IProdutoService;
-import br.com.luhf.services.ProdutoService;
+import main.java.br.com.luhf.dao.IProdutoDAO;
+import main.java.br.com.luhf.domain.Produto;
+import main.java.br.com.luhf.exceptions.DAOException;
+import main.java.br.com.luhf.exceptions.TipoChaveNaoEncontradaException;
+import main.java.br.com.luhf.services.IProdutoService;
+import main.java.br.com.luhf.services.ProdutoService;
 public class ProdutoServiceTest {
 
     private IProdutoService produtoService;

@@ -4,12 +4,12 @@ import dao.ClienteDAOMock;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import br.com.luhf.dao.IClienteDAO;
-import br.com.luhf.domain.Cliente;
-import br.com.luhf.exceptions.DAOException;
-import br.com.luhf.exceptions.TipoChaveNaoEncontradaException;
-import br.com.luhf.services.ClienteService;
-import br.com.luhf.services.IClienteService;
+import main.java.br.com.luhf.dao.IClienteDAO;
+import main.java.br.com.luhf.domain.Cliente;
+import main.java.br.com.luhf.exceptions.DAOException;
+import main.java.br.com.luhf.exceptions.TipoChaveNaoEncontradaException;
+import main.java.br.com.luhf.services.ClienteService;
+import main.java.br.com.luhf.services.IClienteService;
 
 /**
  * @author rodrigo.pires

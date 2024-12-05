@@ -6,13 +6,13 @@ import java.util.Collection;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;
-import br.com.luhf.dao.ClienteDAO;
-import br.com.luhf.dao.IClienteDAO;
-import br.com.luhf.domain.Cliente;
-import br.com.luhf.exceptions.DAOException;
-import br.com.luhf.exceptions.MaisDeUmRegistroException;
-import br.com.luhf.exceptions.TableException;
-import br.com.luhf.exceptions.TipoChaveNaoEncontradaException;
+import main.java.br.com.luhf.dao.ClienteDAO;
+import main.java.br.com.luhf.dao.IClienteDAO;
+import main.java.br.com.luhf.domain.Cliente;
+import main.java.br.com.luhf.exceptions.DAOException;
+import main.java.br.com.luhf.exceptions.MaisDeUmRegistroException;
+import main.java.br.com.luhf.exceptions.TableException;
+import main.java.br.com.luhf.exceptions.TipoChaveNaoEncontradaException;
 
 public class ClienteDAOTest {
 
