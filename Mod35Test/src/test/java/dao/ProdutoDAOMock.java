@@ -1,8 +1,8 @@
 package dao;
 
-import main.java.br.com.luhf.dao.IProdutoDAO;
-import main.java.br.com.luhf.domain.Produto;
-import main.java.br.com.luhf.exceptions.TipoChaveNaoEncontradaException;
+import br.com.luhf.dao.IProdutoDAO;
+import br.com.luhf.domain.Produto;
+import br.com.luhf.exceptions.TipoChaveNaoEncontradaException;
 
 import java.util.Collection;
 

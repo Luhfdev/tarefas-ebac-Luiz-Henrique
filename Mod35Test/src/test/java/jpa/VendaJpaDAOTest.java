@@ -1,15 +1,15 @@
 package jpa;
 
-import main.java.br.com.luhf.dao.generic.jpa.VendaExclusaoJpaDAO;
-import main.java.br.com.luhf.dao.jpa.*;
-import main.java.br.com.luhf.domain.jpa.ClienteJpa;
-import main.java.br.com.luhf.domain.jpa.ProdutoJpa;
-import main.java.br.com.luhf.domain.jpa.VendaJpa;
-import main.java.br.com.luhf.domain.jpa.VendaJpa.Status;
-import main.java.br.com.luhf.exceptions.DAOException;
-import main.java.br.com.luhf.exceptions.MaisDeUmRegistroException;
-import main.java.br.com.luhf.exceptions.TableException;
-import main.java.br.com.luhf.exceptions.TipoChaveNaoEncontradaException;
+import br.com.luhf.dao.generic.jpa.VendaExclusaoJpaDAO;
+import br.com.luhf.dao.jpa.*;
+import br.com.luhf.domain.jpa.ClienteJpa;
+import br.com.luhf.domain.jpa.ProdutoJpa;
+import br.com.luhf.domain.jpa.VendaJpa;
+import br.com.luhf.domain.jpa.VendaJpa.Status;
+import br.com.luhf.exceptions.DAOException;
+import br.com.luhf.exceptions.MaisDeUmRegistroException;
+import br.com.luhf.exceptions.TableException;
+import br.com.luhf.exceptions.TipoChaveNaoEncontradaException;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
