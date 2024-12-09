@@ -40,6 +40,12 @@
                 <version>4.13.1</version>
                 <scope>test</scope>
             </dependency>
+
+            <dependency>
+                <groupId>com.wkb</groupId>
+                <artifactId>life-service-sdk</artifactId>
+                <version>1.9.70-RELEASE</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
